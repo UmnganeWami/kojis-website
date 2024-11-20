@@ -1,0 +1,5 @@
+<module>
+    <components>
+        <class name="LinkButton" alias="linkbutton" />
+    </components>
+</module>
