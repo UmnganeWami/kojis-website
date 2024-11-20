@@ -4,8 +4,12 @@ import haxe.ui.events.MouseEvent;
 import haxe.ui.components.Link;
 
 class LinkButton extends Link {
+	public function new() {
+		super();
+	}
+
 	public function blehhivebeenclicked(MouseEvent) {
-		Browser.window.open("");
+		Browser.window.open("google.com");
 	}
 	/*override function onClick(MouseEvent) {
 		super.onClick();

@@ -5156,7 +5156,7 @@ LinkButton.__name__ = "LinkButton";
 LinkButton.__super__ = haxe_ui_components_Link;
 LinkButton.prototype = $extend(haxe_ui_components_Link.prototype,{
 	blehhivebeenclicked: function(MouseEvent1) {
-		window.open("");
+		window.open("google.com");
 	}
 	,registerBehaviours: function() {
 		haxe_ui_components_Link.prototype.registerBehaviours.call(this);
