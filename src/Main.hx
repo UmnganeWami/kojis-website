@@ -1,14 +1,15 @@
-package ;
+package;
 
 import haxe.ui.HaxeUIApp;
 
 class Main {
-    public static function main() {
-        var app = new HaxeUIApp();
-        app.ready(function() {
-            app.addComponent(new MainView());
+	public static function main() {
+		var app = new HaxeUIApp();
+		app.ready(function() {
+			app.addComponent(new MainView());
 
-            app.start();
-        });
-    }
+			app.start();
+			trace('this is running right?');
+		});
+	}
 }

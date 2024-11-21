@@ -5190,6 +5190,7 @@ Main.main = function() {
 	app.ready(function() {
 		app.addComponent(new MainView());
 		app.start();
+		haxe_Log.trace("this is running right?",{ fileName : "src/Main.hx", lineNumber : 12, className : "Main", methodName : "main"});
 	});
 };
 var haxe_ui_core_IDataComponent = function() { };
