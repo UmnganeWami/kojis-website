@@ -11,7 +11,8 @@ class LinkButton extends Link {
 
 	// @:bind(MouseEvent.CLICK)
 	public function blehhivebeenclicked(MouseEvent) {
-		Browser.window.open("https://google.com");
+		Browser.window.open("https://toyhou.se/Koji_Aito/characters");
+		// Browser.window ("https://google.com");
 		// trace("meowing?");
 	}
 	/*override function onClick(MouseEvent) {
