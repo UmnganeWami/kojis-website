@@ -6,8 +6,10 @@ import haxe.ui.components.Link;
 class LinkButton extends Link {
 	public function new() {
 		super();
+		registerEvent(MouseEvent.CLICK, blehhivebeenclicked);
 	}
 
+	// @:bind(MouseEvent.CLICK)
 	public function blehhivebeenclicked(MouseEvent) {
 		Browser.window.open("google.com");
 	}

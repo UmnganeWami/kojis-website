@@ -5150,6 +5150,7 @@ haxe_ui_components_Link.prototype = $extend(haxe_ui_components_Label.prototype,{
 });
 var LinkButton = function() {
 	haxe_ui_components_Link.call(this);
+	this.registerEvent(haxe_ui_events_MouseEvent.CLICK,$bind(this,this.blehhivebeenclicked));
 };
 $hxClasses["LinkButton"] = LinkButton;
 LinkButton.__name__ = "LinkButton";
