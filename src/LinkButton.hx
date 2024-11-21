@@ -11,8 +11,8 @@ class LinkButton extends Link {
 
 	// @:bind(MouseEvent.CLICK)
 	public function blehhivebeenclicked(MouseEvent) {
-		Browser.window.open("google.com");
-		trace("meowing?");
+		Browser.window.open("https://google.com");
+		// trace("meowing?");
 	}
 	/*override function onClick(MouseEvent) {
 		super.onClick();

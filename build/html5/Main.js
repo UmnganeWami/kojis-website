@@ -5157,8 +5157,7 @@ LinkButton.__name__ = "LinkButton";
 LinkButton.__super__ = haxe_ui_components_Link;
 LinkButton.prototype = $extend(haxe_ui_components_Link.prototype,{
 	blehhivebeenclicked: function(MouseEvent1) {
-		window.open("google.com");
-		haxe_Log.trace("meowing?",{ fileName : "src/LinkButton.hx", lineNumber : 15, className : "LinkButton", methodName : "blehhivebeenclicked"});
+		window.open("https://google.com");
 	}
 	,registerBehaviours: function() {
 		haxe_ui_components_Link.prototype.registerBehaviours.call(this);
@@ -5190,7 +5189,6 @@ Main.main = function() {
 	app.ready(function() {
 		app.addComponent(new MainView());
 		app.start();
-		haxe_Log.trace("this is running right?",{ fileName : "src/Main.hx", lineNumber : 12, className : "Main", methodName : "main"});
 	});
 };
 var haxe_ui_core_IDataComponent = function() { };

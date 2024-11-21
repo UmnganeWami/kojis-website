@@ -9,7 +9,6 @@ class Main {
 			app.addComponent(new MainView());
 
 			app.start();
-			trace('this is running right?');
 		});
 	}
 }
