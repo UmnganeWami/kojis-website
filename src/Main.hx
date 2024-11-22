@@ -6,12 +6,11 @@ import js.Browser;
 import haxe.ui.HaxeUIApp;
 
 class Main {
-	public static function addStyleShit(styleString:String) {
+	/*public static function addStyleShit(styleString:String) {
 		Syntax.code("const style = document.createElement('style')
-        style.textContent = {0}
-        document.head.append(style)", styleString);
-	}
-
+		style.textContent = {0}
+		document.head.append(style)", styleString);
+	}*/
 	public static function main() {
 		var app = new HaxeUIApp();
 		app.ready(function() {

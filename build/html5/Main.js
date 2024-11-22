@@ -5184,11 +5184,6 @@ LinkButton.prototype = $extend(haxe_ui_components_Link.prototype,{
 var Main = function() { };
 $hxClasses["Main"] = Main;
 Main.__name__ = "Main";
-Main.addStyleShit = function(styleString) {
-	const style = document.createElement('style')
-        style.textContent = styleString
-        document.head.append(style);
-};
 Main.main = function() {
 	var app = new haxe_ui_HaxeUIApp();
 	app.ready(function() {
