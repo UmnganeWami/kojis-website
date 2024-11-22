@@ -1,8 +1,11 @@
 <vbox style="padding: 5px;">
     <style>
         @font-face {
-            font-family: myFirstFont;
+            font-family: comicSans;
             src: url(comicsans.ttf);
+        }
+        body {
+            font-family: "comicSans";
         }
         .button {
             font-size: 20px;
