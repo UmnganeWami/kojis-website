@@ -2,7 +2,7 @@
     <style>
         @font-face {
             font-family: 'comsans';
-            src: URL('/comicsans.ttf') format('truetype');
+            src: URL('comicsans.ttf') format('truetype');
         }
         * {
             font-family: "comsans";
