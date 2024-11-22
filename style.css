@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'comicSans';
-    src: URL('comicsans.ttf') format('truetype');
-}
-body {
-    font-family: "comicSans";
-}

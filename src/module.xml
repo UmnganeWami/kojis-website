@@ -3,9 +3,3 @@
         <class name="LinkButton" alias="linkbutton" />
     </components>
 </module>
-
-<themes>
-    <wami>
-		<style resource="style.css" />
-	</wami>
-</themes>
