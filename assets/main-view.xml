@@ -2,10 +2,10 @@
     <style>
         @font-face {
             font-family: 'comicSans';
-            src: URL('comicsans.ttf') format('truetype');
+            src: URL('/comicsans.ttf') format('truetype');
         }
         * {
-            font-face: "comicSans";
+            font-family: "comicSans";
         }
         .button {
             font-size: 20px;
