@@ -5187,7 +5187,6 @@ Main.__name__ = "Main";
 Main.main = function() {
 	var app = new haxe_ui_HaxeUIApp();
 	app.ready(function() {
-		haxe_ui_Toolkit.set_theme("dark");
 		app.addComponent(new MainView());
 		app.start();
 	});
