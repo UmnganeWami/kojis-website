@@ -1,5 +1,6 @@
 package;
 
+import js.Browser;
 import haxe.ui.HaxeUIApp;
 
 class Main {
@@ -7,8 +8,8 @@ class Main {
 		var app = new HaxeUIApp();
 		app.ready(function() {
 			app.addComponent(new MainView());
-
 			app.start();
+			Browser.document.body.setAttribute("font-family", "comicSans");
 		});
 	}
 }

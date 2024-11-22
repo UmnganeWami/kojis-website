@@ -5189,6 +5189,7 @@ Main.main = function() {
 	app.ready(function() {
 		app.addComponent(new MainView());
 		app.start();
+		window.document.body.setAttribute("font-family","comicSans");
 	});
 };
 var haxe_ui_core_IDataComponent = function() { };
@@ -5358,7 +5359,7 @@ haxe_ui_containers_VBox.prototype = $extend(haxe_ui_containers_Box.prototype,{
 var MainView = function() {
 	var _gthis = this;
 	haxe_ui_containers_VBox.call(this);
-	haxe_ui_Toolkit.styleSheet.parse("\r\n        @font-face {\r\n            font-family: 'comicSans';\r\n            src: URL('comicsans.ttf') format('truetype');\r\n            }\r\n        body {\r\n            font-name: \"comicSans\";\r\n        }\r\n        .button {\r\n            font-size: 20px;\r\n        }\r\n    ","user");
+	haxe_ui_Toolkit.styleSheet.parse("\r\n        @font-face {\r\n            font-family: 'comicSans';\r\n            src: URL('comicsans.ttf') format('truetype');\r\n        }\r\n        body {\r\n            font-name: \"comicSans\";\r\n        }\r\n        .button {\r\n            font-size: 20px;\r\n        }\r\n    ","user");
 	var c0 = new haxe_ui_containers_HBox();
 	var c1 = new haxe_ui_components_Button();
 	c1.set_id("button1");
