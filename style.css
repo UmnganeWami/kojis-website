@@ -3,5 +3,5 @@
     src: URL('comicsans.ttf') format('truetype');
 }
 body {
-    font-style: "comicSans";
+    font-family: "comicSans";
 }
