@@ -5,7 +5,7 @@
             src: URL('comicsans.ttf') format('truetype');
         }
         body {
-            font-style: "comicSans";
+            font-family: "comicSans";
         }
         .button {
             font-size: 20px;
