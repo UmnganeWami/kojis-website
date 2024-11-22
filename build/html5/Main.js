@@ -5189,7 +5189,7 @@ Main.main = function() {
 	app.ready(function() {
 		app.addComponent(new MainView());
 		app.start();
-		window.document.body.setAttribute("font-family","comicSans");
+		window.document.body.style.fontFamily = "comicSans";
 	});
 };
 var haxe_ui_core_IDataComponent = function() { };
@@ -5387,6 +5387,7 @@ var MainView = function() {
 	this.bindingRoot = true;
 	this.button2 = c2;
 	this.button1 = c1;
+	window.document.body.style.fontFamily = "comicSans";
 	this.button1.set_onClick(function(e) {
 		_gthis.button1.set_text("Thanks!");
 	});
@@ -5394,7 +5395,7 @@ var MainView = function() {
 	if(c != null) {
 		c.registerEvent(haxe_ui_events_MouseEvent.CLICK,$bind(this,this.onMyButton));
 	} else {
-		haxe_Log.trace("WARNING: could not find event dispatcher to register event (" + "button2" + ")",{ fileName : "src/MainView.hx", lineNumber : 15, className : "MainView", methodName : "new"});
+		haxe_Log.trace("WARNING: could not find event dispatcher to register event (" + "button2" + ")",{ fileName : "src/MainView.hx", lineNumber : 17, className : "MainView", methodName : "new"});
 	}
 };
 $hxClasses["MainView"] = MainView;

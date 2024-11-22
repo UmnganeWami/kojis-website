@@ -9,7 +9,7 @@ class Main {
 		app.ready(function() {
 			app.addComponent(new MainView());
 			app.start();
-			Browser.document.body.setAttribute("font-family", "comicSans");
+			Browser.document.body.style.fontFamily = "comicSans"; // .setAttribute("font-family", "comicSans");
 		});
 	}
 }
