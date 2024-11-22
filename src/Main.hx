@@ -1,13 +1,14 @@
 package;
 
+import js.Syntax;
 import haxe.ui.Toolkit;
 import js.Browser;
 import haxe.ui.HaxeUIApp;
 
 class Main {
 	public static function addStyleShit(styleString:String) {
-		untyped __js__("const style = document.createElement('style');
-        style.textContent = {0};
+		Syntax.code("const style = document.createElement('style')
+        style.textContent = {0}
         document.head.append(style)", styleString);
 	}
 
