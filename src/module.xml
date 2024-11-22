@@ -3,3 +3,9 @@
         <class name="LinkButton" alias="linkbutton" />
     </components>
 </module>
+
+<themes>
+    <default>
+		<style resource="assets/css/style.css" />
+	</default>
+</themes>
