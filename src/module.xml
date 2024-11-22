@@ -5,7 +5,7 @@
 </module>
 
 <themes>
-    <default>
+    <wami>
 		<style resource="style.css" />
-	</default>
+	</wami>
 </themes>

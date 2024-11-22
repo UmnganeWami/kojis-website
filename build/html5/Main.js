@@ -5185,6 +5185,8 @@ var Main = function() { };
 $hxClasses["Main"] = Main;
 Main.__name__ = "Main";
 Main.main = function() {
+	haxe_ui_Toolkit.set_theme("dark");
+	haxe_ui_themes_ThemeManager.get_instance().setThemeVar("dark","font-family","comicSans");
 	var app = new haxe_ui_HaxeUIApp();
 	app.ready(function() {
 		app.addComponent(new MainView());
