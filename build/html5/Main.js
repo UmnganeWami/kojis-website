@@ -5193,7 +5193,6 @@ Main.main = function() {
 	var app = new haxe_ui_HaxeUIApp();
 	app.ready(function() {
 		haxe_ui_Toolkit.set_theme("dark");
-		Main.addStyleShit("* {\r\n            font-family: \" comicSans \";\r\n        }");
 		app.addComponent(new MainView());
 		app.start();
 	});

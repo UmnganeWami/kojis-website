@@ -16,9 +16,9 @@ class Main {
 		var app = new HaxeUIApp();
 		app.ready(function() {
 			Toolkit.theme = "dark";
-			addStyleShit("* {
-            font-family: \" comicSans \";
-        }");
+			/*addStyleShit("* {
+				font-family: \" comicSans \";
+			}");*/
 			app.addComponent(new MainView());
 			app.start();
 			// Browser.document.body.style.fontFamily = "comicSans"; // .setAttribute("font-family", "comicSans");
