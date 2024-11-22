@@ -5184,10 +5184,16 @@ LinkButton.prototype = $extend(haxe_ui_components_Link.prototype,{
 var Main = function() { };
 $hxClasses["Main"] = Main;
 Main.__name__ = "Main";
+Main.addStyleShit = function(styleString) {
+	const style = document.createElement('style');
+  style.textContent = styleString};
+  document.head.append(style);
+};
 Main.main = function() {
 	var app = new haxe_ui_HaxeUIApp();
 	app.ready(function() {
 		haxe_ui_Toolkit.set_theme("dark");
+		Main.addStyleShit("* {\r\n            font-family: \" comicSans \";\r\n        }");
 		app.addComponent(new MainView());
 		app.start();
 	});
