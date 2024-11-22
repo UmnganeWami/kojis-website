@@ -8,7 +8,6 @@ import haxe.ui.events.MouseEvent;
 class MainView extends VBox {
 	public function new() {
 		super();
-		Browser.document.body.style.fontFamily = "comicSans";
 		button1.onClick = function(e) {
 			button1.text = "Thanks!";
 		}
